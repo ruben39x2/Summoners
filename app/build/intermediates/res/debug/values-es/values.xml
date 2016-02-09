@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Atreyu/Documents/Android/SummonersApp/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="Gold">Oro</string>
+    <!-- From: file:/C:/Users/Atreyu/Documents/Android/SummonersApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <!-- From: file:/C:/Users/Atreyu/Documents/Android/SummonersApp/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="about">Acerca de</string>
+    <string name="about_text">Invocadores version Beta.\nEsta app te permite saber más sobre tus amigos de League of Legends. Puedes ver su historial reciente, su partida actual... ¡y más!\n\n¿Sugerencias? ¿Bugs? ¡Contáctanos!</string>
+    <string name="about_the_app">Sobre la aplicación</string>
+    <string name="accept">Aceptar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="add">Añadir</string>
+    <string name="add_summoner">Añadir invocador</string>
+    <string name="an_unknown_error_occured">Ha ocurrido un error desconocido</string>
+    <string name="and">y</string>
+    <string name="app_name">Invocadores</string>
+    <string name="aram">Aram</string>
+    <string name="aram_unranked_5x5">Aram 5 vs 5 </string>
+    <string name="are_you_sure_want_to_delete_summoner">¿Estás seguro de que deseas eliminar el invocador </string>
+    <string name="ascension">Ascensión</string>
+    <string name="ascension_game">Ascensión</string>
+    <string name="assists">Asistencias:</string>
+    <string name="assists_done">Asistencias:</string>
+    <string name="bad_request">Bad request</string>
+    <string name="blind_pick">a ciegas</string>
+    <string name="blue_team">Equipo azul</string>
+    <string name="bot">Bots</string>
+    <string name="bot_3x3">Bots (3 vs 3)</string>
+    <string name="bot_players_are_not_displayed">Los jugadores IA no se muestran - ¡sólo los humanos!</string>
+    <string name="bot_urf">Bots (URF)</string>
+    <string name="bots">Bots</string>
+    <string name="bronze">Bronce</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cap_5x5">Creador de equipos</string>
+    <string name="challenger">Aspirante</string>
+    <string name="champ_kills">Asesinatos de campeones:</string>
+    <string name="change_region">Cambiar región</string>
+    <string name="check_ingame_info">Partida actual</string>
+    <string name="classic">Clásico</string>
+    <string name="counter_pick">Némesis</string>
+    <string name="current_game_length">Duración actual:</string>
+    <string name="current_version">Versión actual</string>
+    <string name="current_version_2_points">Versión actual:</string>
+    <string name="custom">personalizado</string>
+    <string name="data_already_loaded">Los datos ya han sido cargados</string>
+    <string name="data_loaded_successfuly">¡Datos cargados con éxito!</string>
+    <string name="deaths">Muertes:</string>
+    <string name="defeat">Derrota</string>
+    <string name="delete_summoner">Eliminar invocador</string>
+    <string name="details">Detalles</string>
+    <string name="diamond">Diamante</string>
+    <string name="double_kill">Asesinato Doble</string>
+    <string name="draft_pick">reclutamiento</string>
+    <string name="first_blood">Primera sangre</string>
+    <string name="from_the_list"> de la lista</string>
+    <string name="gold_earned">Oro obtenido:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hexakill">Hexakill</string>
+    <string name="hide_other_leagues">Ocultar otras ligas</string>
+    <string name="inhibitors_destroyed">Inhibidores destruidos:</string>
+    <string name="internal_server_error">Error interno del servidor (parece que Rito está teniendo problemas, sé paciente)</string>
+    <string name="ip_earned">PI obtenidos:</string>
+    <string name="is_not_currently_in_a_game">no está actualmente en partida</string>
+    <string name="is_playing">está jugando</string>
+    <string name="kills">Asesinatos:</string>
+    <string name="king_poro">Rey poro</string>
+    <string name="king_poro_game">Leyenda del rey poro</string>
+    <string name="largest_killingspree">Mayor racha de asesinatos:</string>
+    <string name="largest_multikill">Mayor asesinato numeroso:</string>
+    <string name="leagues">Ligas</string>
+    <string name="level">Nivel del campeón:</string>
+    <string name="level_of_summoner">Nivel </string>
+    <string name="loading">Cargando...</string>
+    <string name="loading_champion_icons">Cargando imágenes...</string>
+    <string name="loading_champion_names">Cargando nombres de campeones...</string>
+    <string name="loading_game_data">Cargando información...</string>
+    <string name="loading_leagues">Cargando ligas...</string>
+    <string name="look_for_changes">Buscar cambios</string>
+    <string name="lp">PL</string>
+    <string name="master">Maestro</string>
+    <string name="masteries">Maestrías:\n</string>
+    <string name="minions_killed">Súbditos asesinados:</string>
+    <string name="minions_kills">Súbditos asesinados:</string>
+    <string name="minutes">minutos</string>
+    <string name="neutr_min_kills">Súbditos de la jungla asesinados:</string>
+    <string name="neutral_minions_killed">Monstruos de la jungla asesinados:</string>
+    <string name="nightmare_bots">Bots malditos</string>
+    <string name="no">No</string>
+    <string name="no_summoner_data_for_the_given_name_please_erase_it">No hay información para este nombre de invocador - si no existe, ¡elimínalo de tu lista!</string>
+    <string name="normal_3x3">Normal 3 vs 3</string>
+    <string name="normal_game">Partida normal</string>
+    <string name="odin">Dominion</string>
+    <string name="odin_game">Dominion</string>
+    <string name="ok_cool">Me parece bien</string>
+    <string name="one_for_all">Uno para todos</string>
+    <string name="oneforall_5x5">Uno para todos 5 vs 5</string>
+    <string name="other_leagues">Otras ligas:</string>
+    <string name="pay_your_internet_connection_dude">Paga tu conexión a internet, amigo</string>
+    <string name="pentakill">Asesinato Quíntuple</string>
+    <string name="platinum">Platino</string>
+    <string name="played_recently_lol">ha jugado recientemente a League of Legends</string>
+    <string name="played_recently_lol_they">jugaron recientemente a League of Legends</string>
+    <string name="please_enter_a_name">¡Introduce un nombre!</string>
+    <string name="preferences">Preferencias</string>
+    <string name="preload_data">Cargar datos</string>
+    <string name="preload_text_details">Puedes pre-cargar información sobre campeones y runas. Estos datos se guardarán en tu dispositivo y harán que la aplicación funcione más rápido.</string>
+    <string name="quadra_kill">Asesinato Cuádruple</string>
+    <string name="random_pick">aleatorio</string>
+    <string name="ranked">clasificatoria</string>
+    <string name="ranked_premade_3x3">Clasificatoria 3 vs 3</string>
+    <string name="ranked_premade_5x5">Clasificatoria 5 vs 5</string>
+    <string name="ranked_solo">clasificatoria individual</string>
+    <string name="ranked_solo_5x5">Clasificatoria</string>
+    <string name="ranked_solo_leagues">Clasificatoria individual:</string>
+    <string name="ranked_team_3x3">Clasificatoria por equipos</string>
+    <string name="ranked_team_3x3_queuetype">Equipo 3 vs 3</string>
+    <string name="ranked_team_5x5">Clasificatoria por equipos</string>
+    <string name="ranked_team_5x5_queuetype">Equipo 5 vs 5</string>
+    <string name="rate_limit_exceeded">Límite de peticiones excedido - ¡espera unos minutos para recargar, por favor! (recargar ahora sólo empeorará las cosas)</string>
+    <string name="red_team">Equipo rojo</string>
+    <string name="runes">\n\nRunas:\n</string>
+    <string name="select_region_details">Las peticiones a League of Legends se enviarán sólo a un servidor. Puedes cambiarlo aquí.</string>
+    <string name="select_your_region">Selecciona tu región</string>
+    <string name="service_unavailable">¡Oops! ¡Servicio no disponible!</string>
+    <string name="show_other_leagues">Mostrar otras ligas</string>
+    <string name="silver">Plata</string>
+    <string name="some_data_could_not_be_loaded">¡Alguna información no se pudo cargar!</string>
+    <string name="something_went_wrong_loading_the_recent_matches">¡Algo ha ido mal cargando el historial!</string>
+    <string name="starting_load">Iniciando carga...</string>
+    <string name="statistics">Estadísticas:</string>
+    <string name="stats">Estadísticas</string>
+    <string name="stats_aram">Aram</string>
+    <string name="stats_coop3x3">Cooperativo vs IA (3vs3)</string>
+    <string name="stats_coopvsai">Cooperativo vs IA</string>
+    <string name="stats_counterpick">Némesis</string>
+    <string name="stats_odin">Dominion</string>
+    <string name="stats_rank3x3">Clasificatoria por equipos (5vs5)</string>
+    <string name="stats_rank5x5">Clasificatoria por equipos (3vs3)</string>
+    <string name="stats_ranked">Clásico (clasificatoria)</string>
+    <string name="stats_teambuilder">Creador de equipos</string>
+    <string name="stats_unranked">Clásico (normal)</string>
+    <string name="stats_unranked3x3">Clásico (3vs3)</string>
+    <string name="summoner_names_are_not_stored_with_white_spaces">Los nombres de invocador no se almacenan con espacios en blanco - no son necesarios</string>
+    <string name="summoners_name">nombre de invocador</string>
+    <string name="team_builder">creador de equipos</string>
+    <string name="teams">Equipos:</string>
+    <string name="the_current_summoner_has_no_leagues">¡Este invocador no pertenece a ninguna liga!</string>
+    <string name="time_played">Tiempo jugado:</string>
+    <string name="title_activity_preferences">Invocadores</string>
+    <string name="title_activity_show_in_game_info">Invocadores</string>
+    <string name="title_activity_show_leagues">Invocadores</string>
+    <string name="title_activity_show_match">Invocadores</string>
+    <string name="title_activity_show_stats">Invocadores</string>
+    <string name="title_activity_show_summoner">Invocadores</string>
+    <string name="triple_kill">Asesinato Triple</string>
+    <string name="turn_off_notif">Desactivar notificaciones</string>
+    <string name="turn_on_notif">Activar notificaciones</string>
+    <string name="turrets_destroyed">Torretas destruidas:</string>
+    <string name="turrets_kill">Torretas destruidas:</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorial_match">tutorial</string>
+    <string name="unable_to_load">Imposible cargar</string>
+    <string name="unauthorized">Unauthorized</string>
+    <string name="unknown">Desconocido</string>
+    <string name="urf">URF</string>
+    <string name="version_actualized">¡Versión actualizada!</string>
+    <string name="version_prefs_details">League of Legends es un juego que cambia constantemente. A veces es necesario actualizar la información de la última versión para obtener las imágenes correctas.</string>
+    <string name="version_uptodate">La versión está actualizada</string>
+    <string name="victory">Victoria</string>
+    <string name="wait_for_basic_info">¡Espera a que cargue la información básica, por favor!</string>
+    <string name="wins">Victorias:</string>
+    <string name="wtf_this_should_never_happen">QUÉ COJO*** - esto nunca debería suceder</string>
+    <string name="yes">Sí</string>
+    <string name="you_cannot_add_more">¡No puedes añadir más!</string>
+    <string name="you_have_no_summoners">¡No has añadido a ningún invocador! ¡Añade alguno usando el botón \'Añadir\' del menú!</string>
+</resources>

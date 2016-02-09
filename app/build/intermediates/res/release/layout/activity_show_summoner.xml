@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.summoners.app.rest.lol.summonersApp.ShowSummonerActivity">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewIcon"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/buttonInGame"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickInGame"
+        android:text="@string/check_ingame_info"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textInGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:lines="2"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff000000"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/listViewMatches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent" />
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load_recent_games"
+            android:id="@+id/buttonRecentGames"
+            android:layout_below="@+id/textLevel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:onClick="onClickLoadGames"
+            android:visibility="invisible"/>
+    -->
+    <ProgressBar
+        android:id="@+id/progressBarLoadingGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBarLoadingGames"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ff000000" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Atreyu/Documents/Android/SummonersApp/app/src/main/res/layout/activity_show_summoner.xml -->

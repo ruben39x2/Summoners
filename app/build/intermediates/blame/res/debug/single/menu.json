@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\show_summoner.xml",
+        "source": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\src\\main\\res\\menu\\show_summoner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_preferences.xml",
+        "source": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\src\\main\\res\\menu\\menu_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\my_summoners.xml",
+        "source": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\src\\main\\res\\menu\\my_summoners.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_show_in_game_info.xml",
+        "source": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\src\\main\\res\\layout-land\\activity_show_in_game_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_show_summoner.xml",
+        "source": "C:\\Users\\Atreyu\\Documents\\Android\\SummonersApp\\app\\src\\main\\res\\layout-land\\activity_show_summoner.xml"
+    }
+]

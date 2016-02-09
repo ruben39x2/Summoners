@@ -1,0 +1,445 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.summoners.app.rest.lol.summonersApp.ShowMatchActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/textViewMatchTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/loading"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewMatchSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewMatchTitle"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewMatchSubtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewMatchSubtitle"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff000000" />
+
+            <ImageView
+                android:id="@+id/imageViewMatchPlayedChamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewMatchSubtitle2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/empty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewMatchPlayedChamp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSummonerSpell1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/empty_text"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/empty_text"
+                android:layout_toStartOf="@+id/empty_text" />
+
+
+            <ImageView
+                android:id="@+id/imageViewSummonerSpell2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/empty_text"
+                android:layout_marginLeft="3dp"
+                android:layout_toEndOf="@+id/empty_text"
+                android:layout_toRightOf="@+id/empty_text" />
+
+            <ImageView
+                android:id="@+id/imageViewItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewSummonerSpell1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:id="@+id/imageViewItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageViewItem2"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/imageViewItem2"
+                android:layout_toStartOf="@+id/imageViewItem2" />
+
+            <ImageView
+                android:id="@+id/imageViewItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageViewItem2"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/imageViewItem2"
+                android:layout_toRightOf="@+id/imageViewItem2" />
+
+
+            <ImageView
+                android:id="@+id/imageViewItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageViewItem3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="26dp"
+                android:layout_toEndOf="@+id/imageViewItem3"
+                android:layout_toRightOf="@+id/imageViewItem3" />
+
+            <ImageView
+                android:id="@+id/imageViewItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewItem2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/imageViewItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageViewItem1"
+                android:layout_below="@+id/imageViewItem2"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/imageViewItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewItem2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/imageViewItem5"
+                android:layout_toRightOf="@+id/imageViewItem5" />
+
+            <TextView
+                android:id="@+id/textViewStatistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewItem1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="@string/statistics"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewKills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewStatistics"
+                android:layout_centerHorizontal="true"
+                android:text="@string/kills"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewKills"
+                android:layout_centerHorizontal="true"
+                android:text="@string/deaths"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewAssists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewDeaths"
+                android:layout_centerHorizontal="true"
+                android:text="@string/assists"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewLargestMultikill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAssists"
+                android:layout_centerHorizontal="true"
+                android:text="@string/largest_multikill"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewLargestKillingspree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewLargestMultikill"
+                android:layout_centerHorizontal="true"
+                android:text="@string/largest_killingspree"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewTurretsKilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewLargestKillingspree"
+                android:layout_centerHorizontal="true"
+                android:text="@string/turrets_destroyed"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewBarracksKilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTurretsKilled"
+                android:layout_centerHorizontal="true"
+                android:text="@string/inhibitors_destroyed"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewMinionsKilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewBarracksKilled"
+                android:layout_centerHorizontal="true"
+                android:text="@string/minions_killed"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewNeutralMinionsKilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewMinionsKilled"
+                android:layout_centerHorizontal="true"
+                android:text="@string/neutral_minions_killed"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewGoldEarned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewNeutralMinionsKilled"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gold_earned"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewGoldEarned"
+                android:layout_centerHorizontal="true"
+                android:text="@string/level"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewTimePlayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewLevel"
+                android:layout_centerHorizontal="true"
+                android:text="@string/time_played"
+                android:textColor="#ff000000" />
+
+
+            <TextView
+                android:id="@+id/textViewIPEarned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTimePlayed"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ip_earned"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewTeams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewIPEarned"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/teams"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewRedTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTeams"
+                android:layout_toEndOf="@+id/textViewTeams"
+                android:layout_toRightOf="@+id/textViewTeams"
+                android:text="@string/red_team"
+                android:textColor="#ffc10005" />
+
+            <TextView
+                android:id="@+id/textViewBlueTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTeams"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="@string/blue_team"
+                android:textColor="#ff2200bc" />
+
+            <TextView
+                android:id="@+id/textViewSummoner101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewRedTeam"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSummoner101"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSummoner102"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSummoner103"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSummoner104"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSummoner105"
+                android:layout_toLeftOf="@+id/textViewTeams"
+                android:layout_toStartOf="@+id/textViewTeams"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewRedTeam"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewSummoner201"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewSummoner202"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewSummoner203"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner205"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewSummoner204"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textViewSummoner206"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRedTeam"
+                android:layout_alignStart="@+id/textViewRedTeam"
+                android:layout_below="@+id/textViewSummoner205"
+                android:text="..."
+                android:textColor="#ff000000" />
+
+            <ProgressBar
+                android:id="@+id/progressBarLoadingItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewMatchPlayedChamp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+<!-- From: file:/C:/Users/Atreyu/Documents/Android/SummonersApp/app/src/main/res/layout/activity_show_match.xml -->
